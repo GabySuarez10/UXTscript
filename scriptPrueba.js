@@ -1,4 +1,4 @@
-const API_URL = 'https://uxt-api-1.onrender.com/rutas'
+const API_URL = 'https://uxt-api-1.onrender.com/rutas/visitas'
 // ;
 //const API_URL = 'http://localhost:3000/rutas/visitas';
 console.log ("algo")
@@ -69,3 +69,4 @@ async function enviarDatosAPI(datos) {
 const datos = obtenerInfoPagina();
 console.log(datos);
 enviarDatosAPI(datos);
+
